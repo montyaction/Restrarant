@@ -39,6 +39,11 @@ body{
 .btn-primary{
     color: #fff;
     background: #16a083;
+    transition: backgroud 0.3s ease-in-out;
+}
+
+.btn-primary:hover{
+    background: #209178;
 }
 /* ##################### navbar styling ################### */
 
@@ -559,5 +564,13 @@ body{
     .contact-image{
         width: 90%;
         margin: 3rem auto;
+    }
+}
+
+/* ################### landscape mode ################## */
+
+@media (orientation: landscape) and (max-height: 500px){
+    .showcase-area{
+        height: 50vmax;
     }
 }
